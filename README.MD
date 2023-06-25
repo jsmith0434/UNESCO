@@ -1,11 +1,15 @@
 # Introduction
-This script cleans and extracts metrics related to public school outcomes. Data is sourced from the UNESCO Institute of Statistics (UIS). 
-Original source files exceed the file size limits set by Github but are available for download directly from UNESCO: https://apiportal.uis.unesco.org/bdds
+This project cleans and extracts metrics related to public school outcomes. Data is sourced from the UNESCO Institute of Statistics (UIS). 
+Original source files exceed the file size limits set by Github, but are available for download directly from UNESCO: https://apiportal.uis.unesco.org/bdds
+Data will need to be downloaded and extracted into the appropriate hierarchy before running the .py.
 
-# Output files
-TZA_OPRI and TZA_SDG contain subsets of the UNESCO data that pertain to educational metrics measured in Tanzania.
+# Files
+UNESCO.py - The script for joining, cleaning, and subsetting the data.
+TZA_OPRI.csv - Output containing OPRI indicators for Tanzania.
+TZA_SDG.csv  - Output containing SDG indicators for Tanzania
+SDG.zip - Source data files from Unesco for SDG indicators
 
-# Data Attributes  
+# About the SDG and ORPI input data files  
 ## DATASETNAME_LABEL.csv
 This file is a list of all indicator codes and their descriptive labels:
 |Field Name|Field Description|
